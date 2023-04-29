@@ -7,7 +7,6 @@ const secondArgIsnotZero = func => (...arg) => {    //secondArgIsnotZero is a hi
         console.log('Error !! Divide by zero');
         return null;
     }
-
     return func(...arg)
 }
 
